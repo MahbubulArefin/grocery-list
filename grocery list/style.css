@@ -1,0 +1,58 @@
+/* hjghgh */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* @font-face {
+        font-family: Blackadder ITC;
+        src: url();
+    } */
+  font-family: "lucida Handwriting", "Blackadder ITC";
+  font-size-adjust: 2vh;
+  font-optical-sizing: auto;
+  background: orange;
+}
+
+.container {
+  border: 3px solid #000;
+  width: 86%;
+  margin: auto;
+  display: flex;
+}
+
+.grocery {
+  border-right: 1.5px solid red;
+  width: 600px;
+  height: 99vh;
+  margin: auto;
+  background: whitesmoke;
+  box-shadow: 10px 10px 22px 0 rgba(0, 0, 0, 0.7);
+}
+
+.grocery h1 {
+  font-size: 3rem;
+  margin-top: 1em;
+}
+
+.grocery i {
+  font-size: 2rem;
+  color: green;
+}
+
+.grocery input {
+  font-family: "Viner Hand ITC";
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 70%;
+  font-size: 1rem;
+}
+
+#all_Items h2 {
+  margin-left: 40px;
+  margin-right: 15px;
+  margin-top: 14px;
+  font-size: 2rem;
+}
